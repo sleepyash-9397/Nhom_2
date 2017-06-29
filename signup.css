@@ -1,3 +1,4 @@
+/* Phần head */
 .logo {
     width: 0;
     margin: auto;
@@ -18,7 +19,7 @@ margin: 6px 0;
 width: 100%;
 }
 }
-
+/*phần body */
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #333333;
@@ -76,7 +77,8 @@ footer {
 
 }
 
-/*#facebook:link, facebook:visited {
+/* Phần đăng nhập bằng Facebook, Google */
+#facebook:link, facebook:visited {
     background-color: #3b5998;
     color: white;
     text-decoration: none;
@@ -105,14 +107,6 @@ footer {
     background-color: #a32b1c;
 }
 
-#facebook{
-    background-color: #3b5998;
-}
-
-#google{
-    background-color: #dd4b39;
-}
-
 #facebook, #google{
     margin: 20px 30px;
     padding-left: 3px;
@@ -123,7 +117,6 @@ footer {
     border: 1px solid rgba(0,0,0,0.2);
     border-collapse: collapse;
     font-size: 14px;
-
 }
 
 #icon_fb, #icon_gg{
@@ -135,9 +128,7 @@ footer {
     font-size: 1.6em;
     text-align: center;
     border-right: 1px solid rgba(0,0,0,0.2);
-
 }
-*/
 
 .btn_dangky {
     background-color: #28cb75;
@@ -146,12 +137,19 @@ footer {
     color: white;
 }
 
-.btn_dangky:visited {
+.btn_dangky:visited, .btn_dangky:focus {
     background-color: #28cb75;
+    border-color: #28cb75
 }
 
 .btn_dangky:hover {
-    background-color: #5cb85c;
+    background-color: #0cb863;
+    border-color: #0cb863;
+}
+
+.btn_dangky:active:hover, .btn_dangky:active:focus {
+    background-color: #28cb75;
+    border-color: #00AA00;
 }
 
 .linkbox1 {
