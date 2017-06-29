@@ -128,13 +128,14 @@ a {
     margin: 20px 30px;
     padding-left: 3px;
     padding-right: 44px;
+    width: 25%;
     height: 34px;
     color: white;
     border-radius: 5px;
     border: 1px solid rgba(0,0,0,0.2);
     border-collapse: collapse;
     font-size: 14px;
-
+    
 }
 
 #icon_fb, #icon_gg{
