@@ -3,8 +3,8 @@
     margin: auto;
     }
 #logo{
-    margin: 15px;
-    width: 70px; 
+
+width: 70px; 
 }
 
 div {
@@ -12,11 +12,9 @@ div {
 }
 
 @media only screen and (min-width: 768px){
-.responsive{
-width: 100%;
-}
-
-
+    .responsive{
+    width: 100%;
+    }
 }
 
 body {
@@ -24,25 +22,26 @@ body {
     color: #333333;
 }
 
-.containersection {
+.container {
 
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
+   
 }
 
 .containerbox {
 
     -webkit-box-align: center;
     align-items: center;  
-    width: 580px;  
+    max-width: 580px;  
     margin: auto;
     padding: 0;
 }
 
-.container {
-    width: 80%;
+.container1 {
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -52,21 +51,11 @@ a {
     color: grey;
 }
 
-#footerbar {
-    margin-top: 20px;
-    border-top-style: solid;
-    border-top-color: #d4d2d2;
-    border-top-width: 1px;
-    width: 100%;
-    
-}
-
-
 
 #box1, #box2 {
     border: 1px solid #ddd;
     border-radius: 4px;
-    margin-top: -13px;
+    margin-top: 0px;
     box-shadow: 0px 1px 1px rgba(0,0,0,0.075);
 
 ;
@@ -131,34 +120,34 @@ a {
     background-color: #dd4b39;
 }
 #facebook, #google{
-    margin: 0 41px;
+    margin: 20px 30px;
     padding-left: 3px;
-    padding-right: 20px;
+    padding-right: 44px;
     width: 25%;
     height: 32px;
     color: white;
-    border-radius: 4px;
+    border-radius: 5px;
     border: 1px solid rgba(0,0,0,0.2);
     border-collapse: collapse;
     font-size: 14px;
 }
 
 #icon_fb, #icon_gg{
-left: 0;
-top: 0;
-bottom: 0;
-width: 32px;
-line-height: 32px;
-font-size: 1.6em;
-text-align: center;
-border-right: 1px solid rgba(0,0,0,0.2);
-overflow: hidden;
-text-overflow: ellipsis;
-vertical-align: middle;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 32px;
+    line-height: 32px;
+    font-size: 1.6em;
+    text-align: center;
+    border-right: 1px solid rgba(0,0,0,0.2);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
 }
 
 #text_fb, #text_gg {
-padding-left: 10px;
+    padding-left: 10px;
 }
 
 .btn_dangky {
@@ -195,7 +184,7 @@ padding-left: 10px;
 
 .formgroup input{
     margin-bottom: 10px;
-    height: 30px;
+    height: 32px;
     width: 100%;
     border: 1px solid #ddd;
     padding-left: 10px;
@@ -223,12 +212,6 @@ padding-left: 10px;
     margin-top: 0;
 }
 
-#tb2{
-    margin: 0;
-    padding: 0;
-    border-radius: 1px;
-}
-
 .blank_box {
     padding-left: 10px; 
     width: 100%; 
@@ -237,7 +220,7 @@ padding-left: 10px;
 }
 
 #col3 {
-    text-align:center; 
+    text-align:right; 
     font-size: 8px;
     color: grey;
     line-height: 10px; 
@@ -256,22 +239,22 @@ padding-left: 10px;
 }
 
 
-
 #logo_reCap {
     width: 30px;
-    margin: 0;
+    border: 0;
+    margin-right: 3px;
+    margin-top: 3px;
 }
 
 #checkrobot {
     background-color: #f9f9f9;
     margin-top: 10px;
     border: 1px solid #ddd;
-    border-radius: 3px;
+    border-radius: 4px;
     width: 300px;
-    height: 60px;
-    padding: 5px 0 0 5px;
+    height: 68px;
     padding-left: 5px;
-    padding-right: 0;
+    padding-right: 5px;
     padding-bottom: 0;
     height: min-content;
     line-height: 15px;
@@ -282,10 +265,10 @@ padding-left: 10px;
 #imgcheck {
     display: inline-block;
     background-color: white;
-    height: 24px; 
-    width: 24px;
+    height: 25px; 
+    width: 25px;
     display:inline-block;
-    border: 2px solid #bbb;
+    border: 2px solid #ddd;
     margin-right: 5px;
     border-radius: 2px;
 
@@ -311,47 +294,47 @@ label {
     border: 2px solid #ccc; 
 }
 
-.rightfooter {
-    clear: left;
-    text-align: right;
-    margin-right: 5px;
-    float: right;
-    margin-top: 10px;
-    margin-left: 15px;
-    font-size: 14px;
+body {
+    line-height: 1.42857143;
 }
 
-.rightfooter:visited {
-    text-decoration: none;
+* {
+    margin: 0;
 }
 
-.rightfooter:hover {
-    text-decoration: underline;
+footer {
+    display: block;
 }
 
-.rightfooter:active {
-    text-decoration: underline;
+footer .footerbar {
+    
+    left: 0;
+    right: 0;
+    margin-top: 20px;
+    line-height: 49px;
+    background: white;
+    border-top: 1px solid #d4d2d2;
+    bottom: 0;
+    font-size: 13px;
+    width: 100%;
+
 }
 
-
-#imgfooter {
+footer .leftfooter {
+    line-height: 16px;
+    margin: 10px 30px 10px 30px;
     float: left;
-    margin: 10px;
-    vertical-align: middle;
 }
 
-
-#paraleft {
-    padding: 8px;
-    margin-left: 5px;
-    font-size: small;
-    line-height: 19px;
+.container_left {
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
 
-
-
-
-
-
-
+.rightfooter {
+    margin-right: 30px;
+    float: right;
+    white-space: nowrap;
+}
 
