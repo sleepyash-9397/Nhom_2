@@ -24,9 +24,25 @@ body {
     color: #333333;
 }
 
-section {
-    vertical-align: middle;
-    width: 570px;
+.containersection {
+
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.containerbox {
+
+    -webkit-box-align: center;
+    align-items: center;  
+    width: 580px;  
+    margin: auto;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
