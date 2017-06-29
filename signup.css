@@ -6,7 +6,7 @@
 vertical-align: center;
 width: 70px; 
 }
-@media only screen and (max-width: 700px){
+@media only screen and (min-width: 700px){
 .responsive{
 width: 49.99999%;
 margin: 6px 0;
@@ -24,12 +24,20 @@ body {
     color: #333333;
 }
 
+
+section {
+    vertical-align: middle;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 a {
     text-decoration: none;
     color: grey;
 }
 
-footer {
+#footerbar {
     margin-top: 20px;
     border-top-style: solid;
     border-top-color: darkgrey;
@@ -37,9 +45,12 @@ footer {
     width: 100%;
 }
 
+
+
  @media all and (max-width: 320px) {
    body {
       background: #e7e7e7;
+    
    }
 }
 
@@ -48,17 +59,16 @@ footer {
 #box1, #box2 {
     border: 1px solid #ddd;
     border-radius: 4px;
-    margin-left: 28%;
-    margin-right: 28%;
     margin-top: 0px;
     box-shadow: 0px 1px 1px rgba(0,0,0,0.075);
-    
+
+;
 }
 
 #box1 {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-right:  40px;
-    padding-bottom:  40px;
+    padding-bottom:  20px;
     padding-left:  40px;
 }
 
@@ -66,6 +76,7 @@ footer {
     margin-top: 20px;
     height: 50px;
     text-align: center;
+
 }
 
 #other_signup {
@@ -76,7 +87,7 @@ footer {
 
 }
 
-/*#facebook:link, facebook:visited {
+#facebook:link, facebook:visited {
     background-color: #3b5998;
     color: white;
     text-decoration: none;
@@ -137,7 +148,7 @@ footer {
     border-right: 1px solid rgba(0,0,0,0.2);
 
 }
-*/
+
 
 .btn_dangky {
     background-color: #28cb75;
@@ -173,12 +184,29 @@ footer {
 
 .formgroup input{
     margin-bottom: 10px;
-    height: 34px;
+    height: 32px;
     width: 100%;
     border: 1px solid #ddd;
     padding-left: 10px;
     border-radius: 4px;
     box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px; 
+}
+
+.formgroup input:focus {
+    outline:none;
+    border: 1px solid #9ecaed;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+    /*outline: none;
+    border-width: 0.5px;
+    border-color: #1C86EE;
+    box-shadow: 0 0 5px #1C86EE;
+    border: 1px solid #1C86EE; 
+    box-shadow: 0px 0px 10px #1C86EE; 
+    -moz-box-shadow: 0px 0px 5px #1C86EE;
+    -webkit-box-shadow: 0px 0px 5px #1C86EE; */
 }
 
 .formgroup input::-webkit-input-placeholder {
@@ -203,7 +231,7 @@ footer {
     text-align:right; 
     font-size: 10px;
     color: grey;line-height: 10px; 
-    width: 120px;
+    width: 100px;
 }
 
 #col3 a:visited {
@@ -220,7 +248,7 @@ footer {
 #logo_reCap {
     width: 30px;
     border: 0;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-top: 5px;
 }
 
@@ -229,7 +257,8 @@ footer {
     margin-top: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    width: 330px;
+    width: 300px;
+    height: 68px;
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 0;
@@ -238,7 +267,9 @@ footer {
     box-shadow: 1px 1px 1px rgba(0,0,0,0.075);
 }
 
+
 #imgcheck {
+    display: inline-block;
     background-color: white;
     height: 28px; 
     width: 28px;
@@ -246,6 +277,14 @@ footer {
     border: 2px solid #ddd;
     margin-right: 5px;
 
+}
+
+
+label {
+    width: max-content;
+    font-size: 14px;
+    font-weight: 400px;
+    display: table;
 }
 
 

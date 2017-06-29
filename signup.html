@@ -19,98 +19,108 @@
             </table>
         </header>
         <section>
-            <p style="text-align: center; font-size: 22px;color: #333333;">Đăng ký</p>
-            <div id="box1">
-                <form class="formgroup">
-                    <table  id="tb1">
-                        <tr>
-                            <td><label>Họ:</label></td>
-                            <td style="width: 10%"></td>
-                            <td><label>Tên:</label></td>
-                        </tr>
-                        <tr>
-                            <td><input class="blank_box" type="text" name="firstname" placeholder="Họ"></td>
-                            <td style="width: 10%"></td>
-                            <td><input class="blank_box" type="text" name="lasttname" placeholder="Tên"></td>
-                        
-                        </tr>
-                    </table>
-                    Địa chỉ email:<br>
-                    <input type="text" name="email" placeholder="Địa chỉ email"><br>
-                    Mật khẩu:<br>
-                    <input type="text" name="password" placeholder="Mật khẩu"><br>
-                    Xác nhận mật khẩu:<br>
-                    <input type="text" name="comfirmpass" placeholder="Xác nhận mật khẩu"><br>
-                    <div id="checkrobot">
-                        <table id="tb2">
+            <div class="container">
+                <p style="text-align: center; font-size: 22px;color: #333333;">Đăng ký</p>
+                <div id="box1">
+                    <form class="formgroup">
+                        <table  id="tb1">
                             <tr>
-                                <!-- <td><input type="checkbox" name="checkrobot" id="checkbox"></td>-->
-                                <td>
-                                    <div id="imgcheck">
-                                    </div>
-                                </td>
-                                <td><label>Tôi không phải là người máy</label></td>
-                                <td id="col3"><img id="logo_reCap" src="./reCAPTCHA_logo.png"/>
-                                    <p>reCAPTCHA</p>
-                                    <p><a href="#">Bảo mật</a> - <a href="#">Điều khoản</a></p>
+                                <td><label>Họ:</label></td>
+                                <td style="width: 10%"></td>
+                                <td><label>Tên:</label></td>
+                            </tr>
+                            <tr>
+                                <td><input class="blank_box" type="text" name="firstname" placeholder="Họ"></td>
+                                <td style="width: 10%"></td>
+                                <td><input class="blank_box" type="text" name="lasttname" placeholder="Tên"></td>
                             
-                                </td>
-                            </tr>   
-                                     
+                            </tr>
                         </table>
-    
+                        Địa chỉ email:<br>
+                        <input type="text" name="email" placeholder="Địa chỉ email"><br>
+                        Mật khẩu:<br>
+                        <input type="text" name="password" placeholder="Mật khẩu"><br>
+                        Xác nhận mật khẩu:<br>
+                        <input type="text" name="comfirmpass" placeholder="Xác nhận mật khẩu"><br>
+                        <div id="checkrobot">
+                            <!--<div id="check">
+                                <div id="imgcheck">
+                                </div>
+                                <div id="text_robot">
+                                    <label>Tôi không phải là người máy</label>
+                                </div>
+                            </div>-->
+
+                            <table id="tb2">
+                                <tr>
+                                    <!-- <td><input type="checkbox" name="checkrobot" id="checkbox"></td>-->
+                                    <td>
+                                        <div id="imgcheck">
+                                        </div>
+                                    </td>
+                                    <td><label>Tôi không phải là người<br> máy</label></td>
+                                    <td id="col3"><img id="logo_reCap" src="./reCAPTCHA_logo.png"/>
+                                        <p style="font-size: 10px">reCAPTCHA</p>
+                                        <p><a style="font-size: 8px" href="#">Bảo mật</a> - <a style="font-size: 8px" href="#">Điều khoản</a></p>
+                                
+                                    </td>
+                                </tr>   
+                                        
+                            </table>
+        
+                        </div>
+                        <div style="padding-top: 15px">
+                            <button style="text-align:center; width: 100%; height: 40px; font-size: 15px" class="btn_dangky">Đăng ký</button>
+                        </div>
+                    </form>
+
+                    <div id="other_signup">
+                        <p style="text-align:center">Hoặc đăng nhập bằng</p>
+
+                        <form style="text-align:center" action="#">
+                            <a href="#" id="facebook"> 
+                                <span id="icon_fb" class="fa fa-facebook"></span>
+                                <span id="text_fb"> Facebook</span> 
+                            </a> 
+                            <a href="#" id="google"> 
+                                <span id="icon_gg" class="fa fa-google"></span>
+                                <span id="text_gg"> Google</span>
+                            </a> 
+                        </form>
+
+                        <p>Khi bạn ấn vào nút Đăng ký hoặc Đăng nhập bằng Facebook hoặc Google, bạn đã 
+                            đồng ý với các <a class="linkbox1" href="#">Điều khoản dịch vụ</a> và đã đọc các <a class="linkbox1"  href="#"> Chính sách riêng tư</a> của chúng tôi.</p>
                     </div>
-                    <div style="padding-top: 10px">
-                        <button style="text-align:center; width: 100%; height: 40px; font-size: 15px" class="btn_dangky">Đăng ký</button>
-                    </div>
-                </form>
-
-                <div id="other_signup">
-                    <p style="text-align:center">Hoặc đăng nhập bằng</p>
-
-                    <!-- <form style="text-align:center" action="#">
-                        <a href="#" id="facebook"> 
-                            <span id="icon_fb" class="fa fa-facebook"></span>
-                            <span id="text_fb"> Facebook</span> 
-                        </a> 
-                        <a href="#" id="google"> 
-                            <span id="icon_gg" class="fa fa-google"></span>
-                            <span id="text_gg"> Google</span>
-                        </a> 
-                    </form> -->
-
-                    <p>Khi bạn ấn vào nút Đăng ký hoặc Đăng nhập bằng Facebook hoặc Google, bạn đã 
-                        đồng ý với các <a class="linkbox1" href="#">Điều khoản dịch vụ</a> và đã đọc các <a class="linkbox1"  href="#"> Chính sách riêng tư</a> của chúng tôi.</p>
                 </div>
-            </div>
-            <div id="box2">
-                <p>Bạn đã có tài khoản? <a class="linkbox1" href="#">Đăng nhập</a>
-            </div>
-         
+                <div id="box2">
+                    <p>Bạn đã có tài khoản? <a class="linkbox1" href="#">Đăng nhập</a>
+                </div>
+            </div> 
         </section>
         <footer>
-            <div class="rightfooter">
-                <a href="#">Chính sách</a>
-            </div>
-            <div class="rightfooter">
-                <a href="#">Điều khoản</a>
-            </div>
-            
-            <div id="leftfooter">
-                <div>
-                    <img id="imgfooter" src="./foot.png">
+            <div id="footerbar">
+                <div class="rightfooter">
+                    <a href="#">Chính sách</a>
                 </div>
-                <div id="paraleft">
-                    Copyright © 2016 SACHMEM.VN.</br>
-                    Công ty Cổ phần Đầu tư và Phát triển Giáo dục Hà Nội</br>
-                    Người đại diện: Ông Vũ Bá Khánh - Tổng Giám đốc</br>
-                    Địa chỉ: Tòa nhà VP HEID, ngõ 12 Láng Hạ, Thành Công, Ba Đình, Hà Nội</br>
-                    Điện thoại: (04) 3 512 3939 Email: info@heid.vn</br>
-                    Giấy CNĐKDN số: 0102222393 ngày cấp 20/09/2010, nơi cấp: Sở KHĐT TP.Hà Nội
+                <div class="rightfooter">
+                    <a href="#">Điều khoản</a>
                 </div>
-                    
+                
+                <div id="leftfooter">
+                    <div>
+                        <img id="imgfooter" src="./foot.png">
+                    </div>
+                    <div id="paraleft">
+                        Copyright © 2016 SACHMEM.VN.</br>
+                        Công ty Cổ phần Đầu tư và Phát triển Giáo dục Hà Nội</br>
+                        Người đại diện: Ông Vũ Bá Khánh - Tổng Giám đốc</br>
+                        Địa chỉ: Tòa nhà VP HEID, ngõ 12 Láng Hạ, Thành Công, Ba Đình, Hà Nội</br>
+                        Điện thoại: (04) 3 512 3939 Email: info@heid.vn</br>
+                        Giấy CNĐKDN số: 0102222393 ngày cấp 20/09/2010, nơi cấp: Sở KHĐT TP.Hà Nội
+                    </div>
+                        
+                </div>
             </div>
-            
         </footer>
     </body>
 </html>
