@@ -87,7 +87,7 @@ a {
 
 }
 
-#facebook:link, facebook:visited {
+#facebook:link, #facebook:visited {
     background-color: #3b5998;
     color: white;
     text-decoration: none;
@@ -112,7 +112,7 @@ a {
     background-color: #c23321;
 }
 
-#google:active:hover, google:active:focus {
+#google:active:hover, #google:active:focus {
     background-color: #a32b1c;
 }
 
@@ -158,13 +158,28 @@ a {
     color: white;
 }
 
-.btn_dangky:visited {
+.btn_dangky {
     background-color: #28cb75;
+    border: 1px solid #28cb75;
+    border-radius: 4px;
+    color: white;
+}
+
+.btn_dangky:visited, .btn_dangky:focus {
+    background-color: #28cb75;
+    border-color: #28cb75
 }
 
 .btn_dangky:hover {
-    background-color: #5cb85c;
+    background-color: #0cb863;
+    border-color: #0cb863;
 }
+
+.btn_dangky:active:hover, .btn_dangky:active:focus {
+    background-color: #28cb75;
+    border-color: #00AA00;
+}
+
 
 .linkbox1 {
     color: royalblue;
