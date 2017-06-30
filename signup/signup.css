@@ -15,7 +15,8 @@ div {
 
 .title_head {
   text-align: center; 
-  font-size: 22px;color: #333333; 
+  font-size: 22px;
+  color: #333333; 
   margin-top: 10px;
 }
 
@@ -76,11 +77,20 @@ a {
   text-align: center;
 }
 
+.txt2 {
+   padding-top: 15px;
+}
+
 #other_signup {
   border-top: 1px solid #ddd;
   margin-top: 20px;
   font-size: 15px;
   line-height: 20px;
+}
+
+.txt1 {
+   padding-top: 20px;
+   text-align:center;
 }
 
 #facebook:link, facebook:visited {
@@ -151,6 +161,10 @@ a {
   padding-left: 8px;
   text-overflow: ellipsis;
   vertical-align: middle;
+}
+
+#dangky {
+  padding-top: 15px;
 }
 
 .btn_dangky {
@@ -252,6 +266,13 @@ a {
   text-align: center;
 }
 
+.text_recapt {
+   font-size: 10px;
+}
+.frecapt {
+  padding-bottom: 0p;
+}
+
 #checkrobot {
   background-color: #f9f9f9;
   margin-top: 10px;
@@ -299,6 +320,13 @@ label {
 
 footer {
   display: block;
+}
+
+.fimg {
+   margin-right: 10px; 
+   height: 95px; 
+   vertical-align: middle; 
+   border: 0;
 }
 
 footer .footerbar {  
