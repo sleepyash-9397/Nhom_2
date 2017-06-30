@@ -1,4 +1,4 @@
-#logo{
+#logo {
   margin: 22px;
   width: 70px; 
 }
@@ -7,16 +7,21 @@ div {
   display: block;
 }
 
-@media only screen and (min-width: 768px){
-  .responsive{
+@media only screen and (min-width: 768px) {
+  .responsive {
   width: 100%;
   }
+}
+
+.title_head {
+  text-align: center; 
+  font-size: 22px;color: #333333; 
+  margin-top: 10px;
 }
 
 * {
   margin: 0;
 }
-
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -57,8 +62,6 @@ a {
   border: 1px solid #ddd;
   border-radius: 4px;
   box-shadow: 0px 1px 1px rgba(0,0,0,0.075);
-
-;
 }
 
 #box1 {
@@ -81,7 +84,6 @@ a {
   margin-top: 20px;
   font-size: 15px;
   line-height: 20px;
-
 }
 
 #facebook:link, facebook:visited {
@@ -113,14 +115,14 @@ a {
   background-color: #a32b1c;
 }
 
-#facebook{
+#facebook {
   background-color: #3b5998;
 }
 
-#google{
+#google {
   background-color: #dd4b39;
 }
-#facebook, #google{
+#facebook, #google {
   margin: 3% 10%;
   width: 28%;
   height: 32px;
@@ -135,7 +137,7 @@ a {
   vertical-align: middle;
 }
 
-#icon_fb, #icon_gg{
+#icon_fb, #icon_gg {
   left: 0;
   top: 0;
   bottom: 0;
@@ -158,6 +160,10 @@ a {
   border: 1px solid #28cb75;
   border-radius: 4px;
   color: white;
+  text-align:center; 
+  width: 100%; 
+  height: 34px; 
+  font-size: 15px;
 }
 
 .btn_dangky:visited {
@@ -185,7 +191,7 @@ a {
   font-size: 15px;
 }
 
-.formgroup input{
+.formgroup input {
   margin-bottom: 10px;
   height: 30px;
   width: 100%;
@@ -265,7 +271,6 @@ a {
   box-shadow: 1px 1px 1px rgba(0,0,0,0.075);
 }
 
-
 #imgcheck {
   display: inline-block;
   background-color: white;
@@ -278,13 +283,11 @@ a {
 
 }
 
-
 label {
   width: max-content;
   font-size: 14px;
   display: table;
 }
-
 
 #imgcheck:visited {
    border: 2px solid #bbb;
@@ -313,7 +316,6 @@ footer .footerbar {
   bottom: 0;
   font-size: 13px;
   width: 100%;
-
 }
 
 footer .leftfooter {
