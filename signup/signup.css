@@ -33,12 +33,10 @@ body {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
-  padding-right: 15px;
-   
+  padding-right: 15px;  
 }
 
 .containerbox {
-
   -webkit-box-align: center;
   align-items: center;  
   max-width: 580px;  
@@ -56,7 +54,6 @@ a {
   text-decoration: none;
   color: grey;
 }
-
 
 #box1, #box2 {
   border: 1px solid #ddd;
@@ -96,6 +93,7 @@ a {
 #facebook:hover {
   background-color: #2d4373;
 }
+
 #facebook:active:hover, #facebook:active:focus {
   background-color: #23345a;
 }
@@ -215,12 +213,10 @@ a {
   color: gray;
 }
 
-
 #tb1 {
   width: 100%;
   margin-top: 0;
 }
-
 
 .blank_box {
   padding-left: 10px; 
@@ -280,7 +276,6 @@ a {
   border: 2px solid #bbb;
   margin-right: 5px;
   border-radius: 2px;
-
 }
 
 label {

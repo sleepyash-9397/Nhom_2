@@ -5,7 +5,7 @@
     <link rel="icon" type="image/x-icon" href="./logo1.png">
     <title>Đăng ký | Sách Mềm</title>
     <link rel="stylesheet" type="text/css" href="signup.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <div class="container">
@@ -17,7 +17,7 @@
             </a>
           </div>
         
-          <p class="title_head">Đăng ký</p>
+          <p style="text-align: center; font-size: 22px;color: #333333; margin-top: 10px;">Đăng ký</p>
           <div id="box1">
             <form class="formgroup">
               <table  id="tb1">
@@ -30,6 +30,7 @@
                   <td><input class="blank_box" type="text" name="firstname" placeholder="Họ"></td>
                   <td style="width: 10%"></td>
                   <td><input class="blank_box" type="text" name="lasttname" placeholder="Tên"></td>
+                
                 </tr>
               </table>
               Địa chỉ email:<br>
@@ -39,26 +40,27 @@
               Xác nhận mật khẩu:<br>
               <input type="text" name="comfirmpass" placeholder="Xác nhận mật khẩu"><br>
               <div id="checkrobot">
-              <table id="tb2">
-                <tr>
-                  <td>
-                    <div id="imgcheck"></div>  
-                  </td>
-                  <td><label>Tôi không phải là người<br> máy</label></td>
-                  <td id="col3">
-                    <div>
-                      <img id="logo_reCap" src="./reCAPTCHA_logo.png"/>
-                    </div>
-                    <div id="set_recap_text">
-                    <p style="font-size: 10px">reCAPTCHA</p>
-                    <p style="padding-bottom: 0px">
-                      <a target="_blank" href="https://www.google.com/intl/vi/policies/privacy/">Bảo mật</a> - 
-                      <a target="_blank" href="https://www.google.com/intl/vi/policies/terms/">Điều khoản</a>
-                    </p>
-                    </div>
-                  </td>
-                </tr>   
-              </table>
+                <table id="tb2">
+                  <tr>
+                    <td>
+                      <div id="imgcheck">
+                      </div>
+                    </td>
+                    <td><label>Tôi không phải là người<br> máy</label></td>
+                    <td id="col3">
+                      <div>
+                        <img id="logo_reCap" src="./reCAPTCHA_logo.png"/>
+                      </div>
+                      <div id="set_recap_text">
+                        <p style="font-size: 10px">reCAPTCHA</p>
+                        <p style="padding-bottom: 0px">
+                          <a target="_blank" href="https://www.google.com/intl/vi/policies/privacy/">Bảo mật</a> - 
+                          <a target="_blank" href="https://www.google.com/intl/vi/policies/terms/">Điều khoản</a>
+                        </p>
+                      </div>
+                    </td>
+                  </tr>   
+                </table>
               </div>
               <div style="padding-top: 15px">
                 <button class="btn_dangky">Đăng ký</button>
@@ -66,7 +68,7 @@
             </form>
 
             <div id="other_signup">
-              <p style="padding-top: 20px; text-align: center">Hoặc đăng nhập bằng</p>
+              <p style="padding-top: 20px;text-align:center">Hoặc đăng nhập bằng</p>
               <div action="#">
                 <a href="#" id="facebook"> 
                   <span id="icon_fb" class="fa fa-facebook"></span>
@@ -78,25 +80,27 @@
                 </a> 
               </div>
               <p>Khi bạn ấn vào nút Đăng ký hoặc Đăng nhập bằng Facebook hoặc Google, bạn đã đồng ý với các 
-                <a target="_blank" class="linkbox1" href="http://gioithieu.sachmem.vn/dieu-khoan-dich-vu/">Điều khoản dịch vụ</a> và đã đọc các 
-                <a target="_blank" class="linkbox1"  href="http://gioithieu.sachmem.vn/chinh-sach-rieng-tu/"> Chính sách riêng tư</a> của chúng tôi.
+                <a target="_blank" class="linkbox1" href="http://gioithieu.sachmem.vn/dieu-khoan-dich-vu/">Điều khoản dịch vụ</a> 
+                và đã đọc các 
+                <a target="_blank" class="linkbox1"  href="http://gioithieu.sachmem.vn/chinh-sach-rieng-tu/"> Chính sách riêng tư</a> 
+                của chúng tôi.
               </p>
             </div>
           </div>
           <div id="box2">
             <p style="padding-top: 15px;">Bạn đã có tài khoản? 
-            <a class="linkbox1" target="_blank" href="https://accounts.sachmem.vn/users/sign_in">Đăng nhập</a></p>
+            <a target="_blank" class="linkbox1" href="https://accounts.sachmem.vn/users/sign_in">Đăng nhập</a>
           </div>
         </div>
       </div> 
     </div>
-    
+        
     <footer>
       <div class="footerbar">
         <div class="leftfooter">
           <div class="container_left">
             <div>
-              <img style="margin-right: 10px; height: 95px; vertical-align: middle; border: 0" src="./foot.png">
+                <img style="margin-right: 10px; height: 95px; vertical-align: middle; border: 0" src="./foot.png">
             </div>
             <div>
               Copyright © 2016 SACHMEM.VN.</br>
@@ -108,13 +112,13 @@
             </div>
           </div>
         </div>
-        <span class="rightfooter">
-          <a target="_blank" href="http://gioithieu.sachmem.vn/chinh-sach-rieng-tu/">Chính sách</a>
-        </span>
-        <span class="rightfooter">
-          <a target="_blank" href="http://gioithieu.sachmem.vn/dieu-khoan-dich-vu/">Điều khoản</a>
-        </span>
+          <span class="rightfooter">
+            <a target="_blank" href="http://gioithieu.sachmem.vn/chinh-sach-rieng-tu/">Chính sách</a>
+          </span>
+          <span class="rightfooter">
+            <a target="_blank" href="http://gioithieu.sachmem.vn/dieu-khoan-dich-vu/">Điều khoản</a>
+          </span>      
       </div>
-    </footer>
+    </footer> 
   </body>
 </html>
